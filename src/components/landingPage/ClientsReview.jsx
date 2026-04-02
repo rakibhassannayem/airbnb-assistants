@@ -46,7 +46,7 @@ const reviews = [
 
 const ClientsReview = () => {
   return (
-    <Container>
+    <div className="px-2">
       <Headings
         title1={"Check Our Clients"}
         title2={"Review"}
@@ -61,7 +61,6 @@ const ClientsReview = () => {
           grabCursor={true}
           centeredSlides={true}
           slidesPerView={"3"}
-          
           coverflowEffect={{
             rotate: 0,
             stretch: 0,
@@ -74,8 +73,12 @@ const ClientsReview = () => {
         >
           {reviews.map((review) => (
             <SwiperSlide key={review.id}>
-              <div className="flex items-center gap-3 px-10 py-5">
-                <Image src={review.image} alt="img" className="w-20 h-20 rounded-full" />
+              <div className="flex flex-col lg:flex-row items-center gap-3 px-10 py-5">
+                <Image
+                  src={review.image}
+                  alt="img"
+                  className="w-20 h-20 rounded-full"
+                />
                 <div className="space-y-2">
                   <h4 className="font-bold">{review?.name}</h4>
                   <p>{review?.comment}</p>
@@ -90,7 +93,7 @@ const ClientsReview = () => {
           ))}
         </Swiper>
       </div>
-    </Container>
+    </div>
   );
 };
 
