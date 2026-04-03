@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../shared/Container";
 import { IoMdArrowForward } from "react-icons/io";
 import { FaCheck } from "react-icons/fa6";
-import bannerImg from "@/assets/chooseUs/group.png";
+import bannerImg from "@/assets/group.png";
 import Image from "next/image";
 
 const WhyChooseUs = () => {
