@@ -34,7 +34,7 @@ const Newsletter = () => {
         </div>
       </div>
       <h3 className="text-gray-900 text-xl font-bold">Still have Questions?</h3>
-      <p className="text-gray-400 text-lg mt-1">
+      <p className="text-gray-400 text-lg mt-1 text-center">
         Can’t find the answer you’re looking for? Please chat to our friendly
         team.
       </p>

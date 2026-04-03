@@ -34,8 +34,8 @@ const Tools = () => {
         }
       />
 
-      <div className="bg-base-300 py-12 mt-12">
-        <div className="max-w-4xl mx-auto grid grid-cols-3 gap-6">
+      <div className="bg-base-200 py-12 mt-12">
+        <div className="max-w-4xl mx-auto px-3 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {toolsLogos.map((tool, i) => (
             <div key={i} className="bg-white py-10 rounded-lg flex items-center justify-center hover:shadow shadow-primary">
               <Image src={tool} alt="tool" width={120} />

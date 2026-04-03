@@ -12,7 +12,7 @@ const Footer = () => {
             <Link href={"/"} className="">
               <Image src="/google.png" alt="logo" height={25} width={125} />
             </Link>
-            <p className="text-gray-600 my-2 max-w-xs">
+            <p className="text-gray-600 my-2 sm:max-w-xs">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum aliquet accumsan porta lectus ridiculus in mattis. Netus sodales in volutpat ullamcorper amet adipiscing fermentum.
             </p>
 
