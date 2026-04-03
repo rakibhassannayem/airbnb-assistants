@@ -44,7 +44,7 @@ const Industries = () => {
             }}
             modules={[Autoplay]}
           >
-            {industryLogos.map((logo, i) => (
+            {[...industryLogos, ...industryLogos].map((logo, i) => (
               <SwiperSlide key={i}>
                 <Image src={logo} alt="logo" />
               </SwiperSlide>

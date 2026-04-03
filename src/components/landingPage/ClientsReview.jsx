@@ -13,7 +13,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 
 // import required modules
-import { EffectCoverflow } from "swiper/modules";
+import { EffectCoverflow,Autoplay } from "swiper/modules";
 import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 
@@ -68,7 +68,11 @@ const ClientsReview = () => {
             modifier: 1,
             slideShadows: true,
           }}
-          modules={[EffectCoverflow]}
+          autoplay={{
+              delay: 1500,
+              disableOnInteraction: false,
+            }}
+          modules={[EffectCoverflow, Autoplay]}
           className="mySwiper"
         >
           {reviews.map((review) => (
