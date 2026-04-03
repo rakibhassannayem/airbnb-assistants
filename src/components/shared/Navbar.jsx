@@ -78,7 +78,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <a className="btn btn-primary text-white p-5 rounded-md">
-            Schecdule A Meeting <IoMdArrowForward size={17} />
+            Schecdule A Meeting <IoMdArrowForward size={20} />
           </a>
         </div>
       </Container>

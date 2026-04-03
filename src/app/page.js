@@ -5,6 +5,7 @@ import Industries from "@/components/landingPage/Industries";
 import Newsletter from "@/components/landingPage/Newsletter";
 import Services from "@/components/landingPage/Services";
 import Tools from "@/components/landingPage/Tools";
+import WhyChooseUs from "@/components/landingPage/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Tools />
       <GettingStarted />
       <ClientsReview />
+      <WhyChooseUs />
       <Faq />
       <Newsletter />
     </div>
