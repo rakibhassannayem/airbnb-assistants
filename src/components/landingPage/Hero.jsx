@@ -1,9 +1,8 @@
-import React from "react";
 import Image from "next/image";
-import airbnb from "@/assets/floatinglogos/airbnb.png";
-import booking from "@/assets/floatinglogos/booking.png";
-import vrbo from "@/assets/floatinglogos/vrbo.png";
-import tripadvisor from "@/assets/floatinglogos/tripadvisor.png";
+import airbnb from "@/assets/floatingLogos/airbnb.png";
+import booking from "@/assets/floatingLogos/booking.png";
+import vrbo from "@/assets/floatingLogos/vrbo.png";
+import tripadvisor from "@/assets/floatingLogos/tripadvisor.png";
 import { IoMdArrowForward } from "react-icons/io";
 
 const Hero = () => {
