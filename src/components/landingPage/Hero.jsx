@@ -8,7 +8,7 @@ import { IoMdArrowForward } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <div className="relative w-full overflow-hidden bg-white py-25 flex flex-col items-center justify-center border-b border-gray-200">
+    <div className="relative w-full overflow-hidden bg-white py-25 flex flex-col items-center justify-center border-b border-gray-200"> 
       {/* Grid background */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-size-[4rem_4rem] z-0"></div>
 
